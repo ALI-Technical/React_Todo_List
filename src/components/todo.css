@@ -1,0 +1,41 @@
+:root{
+    --color1 : #5928E5;
+    --color2 : #DCEEF5;
+    --color3 : #3488A2;
+}
+.main-row{
+    height: 90vh;
+    /* border: 5px solid rebeccapurple; */
+    padding: 2em 1.5em;
+}
+.main-col{
+    min-height: 100%;
+    width: 100%;
+    /* border: 5px solid red; */
+}
+.todo-done{
+    text-decoration: line-through;
+}
+.mainHeading{
+    background-color: var(--color3);
+}
+.inputBox div{
+    width: 80%;
+}
+.inputBox input{
+    padding: 10px 0 10px 1.5em;
+    font-family: sans-serif;
+    transition: 0.3s;
+}
+.inputBox input:focus{
+    border-bottom: 5px solid var(--color3);
+    border-left: 5px solid var(--color3);
+    box-shadow: none;
+}
+.inputBox button{
+    font-weight: bold;
+    width: 20%;
+}
+.inputBox button i{
+    font-size: 2em;
+}
